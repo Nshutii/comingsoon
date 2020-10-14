@@ -1,0 +1,936 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container .content-container {
+  display: flex;
+  justify-content: space-between;
+}
+.container .content-container .who-we-are {
+  width: 50%;
+  padding: 4rem 0rem 0rem 4rem;
+}
+.container .content-container .who-we-are .logo p {
+  padding-top: 6rem;
+  font-size: 3.4rem;
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+}
+.container .content-container .who-we-are .name {
+  padding-top: 4rem;
+  padding-bottom: 3rem;
+}
+.container .content-container .who-we-are .name p {
+  font-weight: 500;
+  font-size: 2.2rem;
+  font-family: "Poppins", sans-serif;
+}
+.container .content-container .who-we-are .name p:first-child {
+  font-size: 1.9rem;
+  font-weight: 400;
+}
+.container .content-container .who-we-are .timer {
+  width: 70%;
+}
+.container .content-container .who-we-are .timer h2 {
+  margin: 0rem auto;
+  padding-bottom: 1rem;
+  font-size: 3rem;
+}
+.container .content-container .who-we-are .timer .countdown {
+  font-size: 1.8rem;
+  background-color: #fed700;
+  color: #000;
+  width: 85%;
+  border-radius: 5rem;
+  padding: 0.5rem 1rem;
+}
+.container .content-container .who-we-are .greetings {
+  width: 75%;
+}
+.container .content-container .who-we-are .greetings h1 {
+  padding-top: 3rem;
+  width: 100%;
+  line-height: 1;
+  font-size: 7.5rem;
+  letter-spacing: 1.2;
+  font-weight: 600;
+}
+.container .content-container .who-we-are .social-media {
+  padding-top: 3rem;
+  display: flex;
+}
+.container .content-container .who-we-are .social-media span:first-child {
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-right: 2rem;
+}
+.container .content-container .who-we-are .social-media span.icons {
+  width: 18rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.container .content-container .who-we-are .social-media span.icons a {
+  width: 3.5rem;
+  height: 3.5rem;
+  background: #000;
+  border-radius: 50%;
+  padding: 1rem;
+  font-size: 1.3rem;
+}
+.container .content-container .who-we-are .social-media span.icons a:first-child {
+  margin-left: 0rem;
+}
+.container .content-container .who-we-are .social-media span.icons a i {
+  color: #fff;
+}
+.container .content-container .address {
+  width: 50%;
+}
+.container .content-container .address .banner {
+  width: 100%;
+  height: 40%;
+}
+.container .content-container .address .banner img {
+  width: 100%;
+  height: 100%;
+}
+.container .content-container .address .location {
+  color: #f5f5f5;
+}
+.container .content-container .address .location h1 {
+  font-size: 4.5rem;
+  padding-top: 1rem;
+  color: #252525;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 1.2;
+}
+.container .content-container .address .location p:first-child {
+  font-size: 1.9rem;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 7rem;
+  line-height: 1.6rem;
+  letter-spacing: 1.2;
+  color: #222;
+}
+.container .content-container .address .info .location {
+  display: flex;
+  justify-content: space-between;
+}
+.container .content-container .address .info .location .item-1 {
+  margin-left: 2rem;
+}
+.container .content-container .address .info .location .item-1 .line {
+  border-bottom: 0.3rem solid #000;
+  width: 38%;
+  margin-bottom: 2rem;
+}
+.container .content-container .address .info .location .item-1 .line i {
+  font-size: 2.2rem;
+  display: inline;
+  margin-right: 1rem;
+  color: #000;
+}
+.container .content-container .address .info .location .item-1 .line h4 {
+  display: inline-block;
+  font-size: 2.4rem;
+  color: #252525;
+}
+.container .content-container .address .info .location .item-1 a {
+  width: 85%;
+  display: block;
+  font-size: 1.5rem;
+  color: #252525;
+  text-decoration: none;
+  font-weight: 600;
+}
+.container .content-container .address .info .location .item-2 {
+  margin-right: 1rem;
+}
+.container .content-container .address .info .location .item-2 .line {
+  border-bottom: 0.3rem solid #000;
+  width: 70%;
+  margin-bottom: 2rem;
+}
+.container .content-container .address .info .location .item-2 .line i {
+  display: inline;
+  font-size: 2.2rem;
+  display: inline;
+  margin-right: 1rem;
+  color: #000;
+}
+.container .content-container .address .info .location .item-2 .line h4 {
+  display: inline-block;
+  font-size: 2.4rem;
+  color: #252525;
+}
+.container .content-container .address .info .location .item-2 a {
+  display: block;
+  font-size: 1.5rem;
+  color: #252525;
+  text-decoration: none;
+  font-weight: 600;
+}
+.container .content-container .address .info .location .item-2 .info-2 {
+  margin-top: 0.1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+  .container .content-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container .content-container .who-we-are {
+    width: 50%;
+    padding: 4rem 0rem 0rem 4rem;
+  }
+  .container .content-container .who-we-are .logo p {
+    padding-top: 6rem;
+    font-size: 3.4rem;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+  }
+  .container .content-container .who-we-are .name {
+    padding-top: 4rem;
+    padding-bottom: 3rem;
+  }
+  .container .content-container .who-we-are .name p {
+    font-weight: 500;
+    font-size: 2.2rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .container .content-container .who-we-are .name p:first-child {
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+  .container .content-container .who-we-are .timer {
+    width: 90%;
+  }
+  .container .content-container .who-we-are .timer h2 {
+    margin: 0rem;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+  }
+  .container .content-container .who-we-are .timer .countdown {
+    margin: 0rem;
+    font-size: 1.8rem;
+    background-color: #fed700;
+    color: #000;
+    width: 90%;
+    border-radius: 5rem;
+    padding: 0.5rem 1rem;
+  }
+  .container .content-container .who-we-are .greetings {
+    width: 75%;
+  }
+  .container .content-container .who-we-are .greetings h1 {
+    padding-top: 3rem;
+    width: 100%;
+    line-height: 1;
+    font-size: 7.5rem;
+    letter-spacing: 1.2;
+    font-weight: 600;
+  }
+  .container .content-container .who-we-are .social-media {
+    padding-top: 3rem;
+    display: flex;
+  }
+  .container .content-container .who-we-are .social-media span:first-child {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-right: 2rem;
+  }
+  .container .content-container .who-we-are .social-media span.icons {
+    width: 18rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .container .content-container .who-we-are .social-media span.icons a {
+    width: 3.5rem;
+    height: 3.5rem;
+    background: #000;
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 1.3rem;
+  }
+  .container .content-container .who-we-are .social-media span.icons a:first-child {
+    margin-left: 0rem;
+  }
+  .container .content-container .who-we-are .social-media span.icons a i {
+    color: #fff;
+  }
+  .container .content-container .address {
+    width: 50%;
+  }
+  .container .content-container .address .banner {
+    width: 100%;
+    height: 40%;
+  }
+  .container .content-container .address .banner img {
+    width: 100%;
+    height: 100%;
+  }
+  .container .content-container .address .location {
+    color: #f5f5f5;
+  }
+  .container .content-container .address .location h1 {
+    font-size: 4.5rem;
+    padding-top: 1rem;
+    color: #252525;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1.2;
+  }
+  .container .content-container .address .location p:first-child {
+    font-size: 1.9rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 7rem;
+    line-height: 1.6rem;
+    letter-spacing: 1.2;
+    color: #222;
+  }
+  .container .content-container .address .info .location {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container .content-container .address .info .location .item-1 {
+    margin-left: 2rem;
+  }
+  .container .content-container .address .info .location .item-1 .line {
+    border-bottom: 0.3rem solid #000;
+    width: 55%;
+    margin-bottom: 1rem;
+  }
+  .container .content-container .address .info .location .item-1 .line i {
+    font-size: 2.2rem;
+    display: inline;
+    margin-right: 0rem;
+    color: #000;
+  }
+  .container .content-container .address .info .location .item-1 .line h4 {
+    display: inline-block;
+    font-size: 2.4rem;
+    color: #252525;
+    padding-left: 1rem;
+  }
+  .container .content-container .address .info .location .item-1 a {
+    width: 85%;
+    display: block;
+    font-size: 1.5rem;
+    color: #252525;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .container .content-container .address .info .location .item-2 {
+    margin-right: 1rem;
+    padding-top: -6rem;
+  }
+  .container .content-container .address .info .location .item-2 .line {
+    border-bottom: 0.3rem solid #000;
+    width: 70%;
+    margin: 0rem;
+  }
+  .container .content-container .address .info .location .item-2 .line i {
+    display: inline;
+    font-size: 2.2rem;
+    margin-right: 1rem;
+    color: #000;
+  }
+  .container .content-container .address .info .location .item-2 .line h4 {
+    display: inline-block;
+    font-size: 2.4rem;
+    color: #252525;
+  }
+  .container .content-container .address .info .location .item-2 a {
+    display: inline;
+    font-size: 1.5rem;
+    color: #252525;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .container .content-container .address .info .location .item-2 .info-1 {
+    display: block;
+  }
+  .container .content-container .address .info .location .item-2 .info-1 i {
+    font-size: 1.6rem;
+    color: #fed700;
+    display: inline;
+  }
+  .container .content-container .address .info .location .item-2 .info-1 a {
+    display: inline;
+    margin: 0rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+  .container .content-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .container .content-container .who-we-are {
+    width: 100%;
+    margin: 0rem auto;
+    padding-bottom: 3rem;
+  }
+  .container .content-container .who-we-are .logo p {
+    padding-top: 6rem;
+    font-size: 3.4rem;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+  }
+  .container .content-container .who-we-are .name {
+    padding-top: 5rem;
+  }
+  .container .content-container .who-we-are .name p {
+    font-weight: 500;
+    font-size: 2.2rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .container .content-container .who-we-are .name p:first-child {
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+  .container .content-container .who-we-are .timer {
+    width: 65%;
+  }
+  .container .content-container .who-we-are .timer h2 {
+    margin: 0rem auto;
+    padding-bottom: 1rem;
+    font-size: 3rem;
+  }
+  .container .content-container .who-we-are .timer .countdown {
+    font-size: 1.8rem;
+    background-color: #fed700;
+    color: #000;
+    width: 85%;
+    border-radius: 5rem;
+    padding: 0.5rem 1rem;
+  }
+  .container .content-container .who-we-are .greetings {
+    width: 100%;
+  }
+  .container .content-container .who-we-are .greetings h1 {
+    padding-top: 3rem;
+    width: 100%;
+    line-height: 1;
+    font-size: 6.5rem;
+    letter-spacing: 1.2;
+    font-weight: 600;
+  }
+  .container .content-container .who-we-are .social-media {
+    padding-top: 3rem;
+    display: flex;
+  }
+  .container .content-container .who-we-are .social-media span:first-child {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-right: 2rem;
+  }
+  .container .content-container .who-we-are .social-media span.icons {
+    width: 18rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .container .content-container .who-we-are .social-media span.icons a {
+    width: 3.5rem;
+    height: 3.5rem;
+    background: #000;
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 1.3rem;
+  }
+  .container .content-container .who-we-are .social-media span.icons a:first-child {
+    margin-left: 0rem;
+  }
+  .container .content-container .who-we-are .social-media span.icons a i {
+    color: #fff;
+  }
+  .container .content-container .address {
+    width: 100%;
+    padding: 0rem 5rem;
+  }
+  .container .content-container .address .banner {
+    margin-top: 2rem;
+    width: 100%;
+    height: 40%;
+  }
+  .container .content-container .address .banner img {
+    width: 100%;
+    height: 100%;
+  }
+  .container .content-container .address .location {
+    color: #f5f5f5;
+  }
+  .container .content-container .address .location h1 {
+    font-size: 4.5rem;
+    padding-top: 1rem;
+    color: #252525;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1.2;
+  }
+  .container .content-container .address .location p:first-child {
+    font-size: 1.9rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 7rem;
+    line-height: 1.6rem;
+    letter-spacing: 1.2;
+    color: #222;
+  }
+  .container .content-container .address .info .location {
+    display: flex;
+    justify-content: space-between;
+  }
+  .container .content-container .address .info .location .item-1 {
+    margin-left: 2rem;
+  }
+  .container .content-container .address .info .location .item-1 .line {
+    border-bottom: 0.3rem solid #000;
+    width: 38%;
+    margin-bottom: 2rem;
+  }
+  .container .content-container .address .info .location .item-1 .line i {
+    font-size: 2.2rem;
+    display: inline;
+    margin-right: 1rem;
+    color: #000;
+  }
+  .container .content-container .address .info .location .item-1 .line h4 {
+    display: inline-block;
+    font-size: 2.4rem;
+    color: #252525;
+  }
+  .container .content-container .address .info .location .item-1 a {
+    display: block;
+    font-size: 1.5rem;
+    color: #252525;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .container .content-container .address .info .location .item-2 {
+    margin-right: 1.5rem;
+  }
+  .container .content-container .address .info .location .item-2 .line {
+    border-bottom: 0.3rem solid #000;
+    width: 70%;
+    margin-bottom: 2rem;
+  }
+  .container .content-container .address .info .location .item-2 .line i {
+    display: inline;
+    font-size: 2.2rem;
+    display: inline;
+    margin-right: 1rem;
+    color: #000;
+  }
+  .container .content-container .address .info .location .item-2 .line h4 {
+    display: inline-block;
+    font-size: 2.4rem;
+    color: #252525;
+  }
+  .container .content-container .address .info .location .item-2 a {
+    display: block;
+    font-size: 1.5rem;
+    color: #252525;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .container .content-container .address .info .location .item-2 .info-2 {
+    margin-top: 0.1rem;
+  }
+}
+@media only screen and (max-width: 425px) {
+  .container {
+    width: 100%;
+  }
+  .container .content-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .container .content-container .who-we-are {
+    width: 100%;
+    padding: 4rem 0rem 0rem 4rem;
+    margin: 0rem auto;
+    padding-bottom: 4rem;
+  }
+  .container .content-container .who-we-are .logo p {
+    padding-top: 6rem;
+    font-size: 3.4rem;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+  }
+  .container .content-container .who-we-are .name {
+    padding-top: 5rem;
+  }
+  .container .content-container .who-we-are .name p {
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .container .content-container .who-we-are .name p:first-child {
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+  .container .content-container .who-we-are .timer {
+    width: 100%;
+  }
+  .container .content-container .who-we-are .timer h2 {
+    margin: 0rem auto;
+    padding-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  .container .content-container .who-we-are .timer .countdown {
+    font-size: 1.2rem;
+    background-color: #fed700;
+    color: #000;
+    width: 85%;
+    border-radius: 5rem;
+    padding: 0.5rem 1rem;
+  }
+  .container .content-container .who-we-are .greetings {
+    width: 100%;
+  }
+  .container .content-container .who-we-are .greetings h1 {
+    padding-top: 3rem;
+    width: 100%;
+    line-height: 1;
+    font-size: 4.5rem;
+    letter-spacing: 1.2;
+    font-weight: 600;
+  }
+  .container .content-container .who-we-are .social-media {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .content-container .who-we-are .social-media span:first-child {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-right: 2rem;
+  }
+  .container .content-container .who-we-are .social-media span.icons {
+    width: 18rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .container .content-container .who-we-are .social-media span.icons a {
+    width: 3.5rem;
+    height: 3.5rem;
+    background: #000;
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 1.3rem;
+  }
+  .container .content-container .who-we-are .social-media span.icons a:first-child {
+    margin-left: 0rem;
+  }
+  .container .content-container .who-we-are .social-media span.icons a i {
+    color: #fff;
+  }
+  .container .content-container .address {
+    width: 100%;
+    padding: 0rem 1.5rem;
+  }
+  .container .content-container .address .banner {
+    margin-top: 2rem;
+    width: 100%;
+    height: 40%;
+  }
+  .container .content-container .address .banner img {
+    width: 100%;
+    height: 100%;
+  }
+  .container .content-container .address .location {
+    color: #f5f5f5;
+  }
+  .container .content-container .address .location h1 {
+    font-size: 4.5rem;
+    padding-top: 1rem;
+    color: #252525;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1.2;
+  }
+  .container .content-container .address .location p:first-child {
+    font-size: 1.9rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 7rem;
+    line-height: 1.6rem;
+    letter-spacing: 1.2;
+    color: #222;
+  }
+  .container .content-container .address .info .location {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .content-container .address .info .location .item-1 {
+    margin-left: 2rem;
+  }
+  .container .content-container .address .info .location .item-1 .line {
+    border-bottom: 0.3rem solid #000;
+    width: 45%;
+    margin-bottom: 2rem;
+  }
+  .container .content-container .address .info .location .item-1 .line i {
+    font-size: 2.2rem;
+    display: inline;
+    margin-right: 0rem;
+    color: #000;
+  }
+  .container .content-container .address .info .location .item-1 .line h4 {
+    display: inline-block;
+    font-size: 2.4rem;
+    color: #252525;
+  }
+  .container .content-container .address .info .location .item-1 a {
+    display: block;
+    font-size: 1.5rem;
+    color: #252525;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .container .content-container .address .info .location .item-2 {
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+  }
+  .container .content-container .address .info .location .item-2 .line {
+    border-bottom: 0.3rem solid #000;
+    width: 45%;
+    margin-bottom: 2rem;
+  }
+  .container .content-container .address .info .location .item-2 .line i {
+    display: inline;
+    font-size: 2.2rem;
+    display: inline;
+    margin-right: 1rem;
+    color: #000;
+  }
+  .container .content-container .address .info .location .item-2 .line h4 {
+    display: inline-block;
+    font-size: 2.4rem;
+    color: #252525;
+  }
+  .container .content-container .address .info .location .item-2 a {
+    display: block;
+    font-size: 1.5rem;
+    color: #252525;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: -0.2rem;
+  }
+  .container .content-container .address .info .location .item-2 .info-2 {
+    margin-top: 0.1rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .container {
+    width: 100%;
+  }
+  .container .content-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .container .content-container .who-we-are {
+    width: 100%;
+    padding: 4rem 0rem 0rem 2rem;
+    margin: 0rem auto;
+    padding-bottom: 4rem;
+  }
+  .container .content-container .who-we-are .logo p {
+    padding-top: 6rem;
+    font-size: 2.5rem;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+  }
+  .container .content-container .who-we-are .name {
+    padding-top: 5rem;
+  }
+  .container .content-container .who-we-are .name p {
+    font-weight: 500;
+    font-size: 2rem;
+    font-family: "Poppins", sans-serif;
+  }
+  .container .content-container .who-we-are .name p:first-child {
+    font-size: 1.9rem;
+    font-weight: 400;
+  }
+  .container .content-container .who-we-are .timer {
+    width: 100%;
+  }
+  .container .content-container .who-we-are .timer h2 {
+    margin: 0rem auto;
+    padding-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  .container .content-container .who-we-are .timer .countdown {
+    font-size: 1.2rem;
+    margin: 0rem;
+    background-color: #fed700;
+    color: #000;
+    width: 90%;
+    margin-right: 2rem;
+    border-radius: 5rem;
+    padding: 0.5rem 1rem;
+  }
+  .container .content-container .who-we-are .greetings {
+    width: 100%;
+  }
+  .container .content-container .who-we-are .greetings h1 {
+    padding-top: 3rem;
+    width: 100%;
+    line-height: 1;
+    font-size: 4.5rem;
+    letter-spacing: 1.2;
+    font-weight: 600;
+  }
+  .container .content-container .who-we-are .social-media {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .container .content-container .who-we-are .social-media span:first-child {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-right: 2rem;
+  }
+  .container .content-container .who-we-are .social-media span.icons {
+    width: 18rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+  }
+  .container .content-container .who-we-are .social-media span.icons a {
+    width: 3.5rem;
+    height: 3.5rem;
+    background: #000;
+    border-radius: 50%;
+    padding: 1rem;
+    font-size: 1.3rem;
+  }
+  .container .content-container .who-we-are .social-media span.icons a:first-child {
+    margin-left: 0rem;
+  }
+  .container .content-container .who-we-are .social-media span.icons a i {
+    color: #fff;
+  }
+  .container .content-container .address {
+    width: 100%;
+    padding: 0rem 1.5rem;
+  }
+  .container .content-container .address .banner {
+    margin-top: 2rem;
+    width: 100%;
+    height: 40%;
+  }
+  .container .content-container .address .banner img {
+    width: 100%;
+    height: 100%;
+  }
+  .container .content-container .address .location {
+    color: #f5f5f5;
+  }
+  .container .content-container .address .location h1 {
+    font-size: 4.5rem;
+    padding-top: 1rem;
+    color: #252525;
+    text-align: center;
+    font-weight: 600;
+    letter-spacing: 1.2;
+  }
+  .container .content-container .address .location p:first-child {
+    font-size: 1.9rem;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 7rem;
+    line-height: 1.6rem;
+    letter-spacing: 1.2;
+    color: #222;
+  }
+  .container .content-container .address .info .location {
+    display: flex;
+    flex-direction: column;
+  }
+  .container .content-container .address .info .location .item-1 {
+    margin-left: 2rem;
+  }
+  .container .content-container .address .info .location .item-1 .line {
+    border-bottom: 0.3rem solid #000;
+    width: 55%;
+    margin-bottom: 2rem;
+  }
+  .container .content-container .address .info .location .item-1 .line i {
+    font-size: 2.2rem;
+    display: inline;
+    margin-right: 0rem;
+    color: #000;
+  }
+  .container .content-container .address .info .location .item-1 .line h4 {
+    display: inline-block;
+    font-size: 2.4rem;
+    color: #252525;
+  }
+  .container .content-container .address .info .location .item-1 a {
+    display: block;
+    font-size: 1.5rem;
+    color: #252525;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .container .content-container .address .info .location .item-2 {
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+  }
+  .container .content-container .address .info .location .item-2 .line {
+    border-bottom: 0.3rem solid #000;
+    width: 55%;
+    margin-bottom: 2rem;
+  }
+  .container .content-container .address .info .location .item-2 .line i {
+    display: inline;
+    font-size: 2.2rem;
+    display: inline;
+    margin-right: 1rem;
+    color: #000;
+  }
+  .container .content-container .address .info .location .item-2 .line h4 {
+    display: inline-block;
+    font-size: 2.4rem;
+    color: #252525;
+  }
+  .container .content-container .address .info .location .item-2 a {
+    display: block;
+    font-size: 1.5rem;
+    color: #252525;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: -0.2rem;
+  }
+  .container .content-container .address .info .location .item-2 .info-2 {
+    margin-top: 0.1rem;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
